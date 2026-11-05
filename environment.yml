@@ -1,0 +1,23 @@
+name: flower
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=2.2.6
+  - pandas=2.3.3
+  - scipy=1.15.2
+  - matplotlib-base=3.10.9
+  - seaborn=0.13.2
+  - statsmodels=0.14.6
+  - pingouin=0.6.1
+  - polars=1.41.2
+  - shapely=2.1.2
+  - pip
+  - r-base=4.5.1
+  - r-lme4=2.0_1
+  - r-lmertest=3.2_1
+  - r-emmeans=2.0.3
+  - r-bayesfactor=0.9.12_4.8
+  - rpy2=3.6.7
+  - pip:
+      - pymer4==0.9.2
